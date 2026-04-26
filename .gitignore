@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.manifest
+*.spec
+.installed.cfg
+*.egg-info
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+.env
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Node modules (if any frontend)
+node_modules/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Docker
+*.env
+
+# Test/coverage
+.coverage
+htmlcov/
+.pytest_cache/
